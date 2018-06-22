@@ -5,6 +5,22 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MODPizza", "MODPizza\MODPizza.shproj", "{22AF0CE3-5966-4299-A801-390F7E1C5078}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MOD_Reports", "MOD_Reports", "{F43E1682-1261-4F01-B457-33A18EF76EF9}"
+	ProjectSection(SolutionItems) = preProject
+		MOD_Reports\Logging.cs = MOD_Reports\Logging.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIServices", "APIServices", "{E01A33D8-11E2-4E31-9CBE-39F6D39CB2BD}"
+	ProjectSection(SolutionItems) = preProject
+		APIServices\Retry.cs = APIServices\Retry.cs
+		APIServices\RetryHelper.cs = APIServices\RetryHelper.cs
+		APIServices\RetryStrategyBase.cs = APIServices\RetryStrategyBase.cs
+		APIServices\RetryStrategyCustom.cs = APIServices\RetryStrategyCustom.cs
+		APIServices\RetryStrategyExponential.cs = APIServices\RetryStrategyExponential.cs
+		APIServices\RetryStrategyFixed.cs = APIServices\RetryStrategyFixed.cs
+		APIServices\RetryStrategyIncremental.cs = APIServices\RetryStrategyIncremental.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		MODPizza\MODPizza.projitems*{22af0ce3-5966-4299-a801-390f7e1c5078}*SharedItemsImports = 13
