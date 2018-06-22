@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MODPizza", "MODPizza\MODPizza.shproj", "{22AF0CE3-5966-4299-A801-390F7E1C5078}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MODPizza\MODPizza.projitems*{22af0ce3-5966-4299-a801-390f7e1c5078}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C14BF4F-5AE9-4FB7-AEC9-90FAAEBEAE25}
+	EndGlobalSection
+EndGlobal
